@@ -10,8 +10,12 @@
 
 @font-face {
     font-family: 'Hoshiko';
-    src: url(../fontes/Hoshiko\ Satsuki.ttf) format(truetype);
+    src: url(../fontes/Hoshiko\ Satsuki.ttf) format(truetype); 
 }
+@font-face {
+    font-family: 'Houji';
+    src: url(../fontes/hHouji.ttf) format(truetype);
+}   
 
 h1{
     font-family: 'Hoshiko';
@@ -26,6 +30,11 @@ h2{
     padding: 1px;
 }
 
+
+.titulo-lista{
+    font-family: 'Houji';
+}
+
 p, h3{
     font-family: 'Montserrat';
     text-align: center;
@@ -35,7 +44,7 @@ p, h3{
 .titulo-2{
     text-align: left;
     color: #BFAA69;
-    font-family: 'Montserrat';
+    font-family: 'Houji';
 }
 
 body {
@@ -72,9 +81,11 @@ body {
 
 .japa{
     
-    width: 400px;
-    padding: 30px;
-    margin-left: 289px;
+    width: 500px;
+    padding: 20px;
+    margin-left: 260px;
+    border-radius: 50px;
+    
 }
 
 .tag {
@@ -99,4 +110,25 @@ body {
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);
     font-family: '';
+}
+
+
+.lista-japa{
+    
+    display: inline-block;
+    gap: 22px;
+    list-style: none;
+    padding: 9px;
+    margin: 9px;
+}
+
+
+.lista-japa li{
+    padding: 10px 14px;
+    margin-bottom: 10px;
+    background-color:   #2f5936d5;
+    color: #BFAA69;
+    display: inline-block;
+    border-radius: 10px;
+    
 }
