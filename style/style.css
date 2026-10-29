@@ -1,0 +1,102 @@
+
+* {
+    box-sizing: border-box;
+
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Redaction:ital,wght@0,400;0,700;1,400&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+@font-face {
+    font-family: 'Hoshiko';
+    src: url(../fontes/Hoshiko\ Satsuki.ttf) format(truetype);
+}
+
+h1{
+    font-family: 'Hoshiko';
+    color: #BFAA69;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Montserrat';
+    text-align: left;
+    color: #BFAA69;
+    padding: 1px;
+}
+
+p, h3{
+    font-family: 'Montserrat';
+    text-align: center;
+    color: #BFAA69;
+}
+
+.titulo-2{
+    text-align: left;
+    color: #BFAA69;
+    font-family: 'Montserrat';
+}
+
+body {
+    margin: 0;
+    background-color: #A63126;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.container{
+     width: 90%;
+    max-width: 1000px;
+
+    margin: auto;
+}
+
+.cabecalho{
+     background-color: #735F46;
+            color: #BFAA69;
+            margin-bottom: 10px;
+            padding: px 10;
+            margin-left: 290px;
+            margin-right: 290px;
+            gap: 1px;
+                    
+            
+            border-bottom-left-radius:  30px;
+            border-bottom-right-radius: 30px;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+}
+
+.japa{
+    
+    width: 400px;
+    padding: 30px;
+    margin-left: 289px;
+}
+
+.tag {
+    margin-bottom: 5px;
+    color: #BFAA69;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+
+.grade-cards{
+    display: grid;
+    gap: 15px;
+}
+
+.card {
+    padding: 14px;
+    background-color: #2f5936d5;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);
+    font-family: '';
+}
